@@ -42,6 +42,11 @@ $pseudo: (
     ),
     active: (
       background-color: $u-primary-active
+    ),
+    disabled: (
+      color: $u-light-text,
+      background: $u-primary-disabled,
+      border: none
     )
   ),
   secondary: (
@@ -56,6 +61,11 @@ $pseudo: (
     active: (
       border-color: $u-form-control-line-active,
       color: $u-brand-active
+    ),
+    disabled: (
+      color: $u-disabled-text,
+      background: $u-disabled-bg,
+      border: 1px solid $u-disabled-line
     )
   ),
   text: (
@@ -67,6 +77,9 @@ $pseudo: (
     ),
     active: (
       color: $u-brand-active-focus
+    ),
+    disabled: (
+      color: $u-disabled-text
     )
   )
 );

@@ -13,4 +13,9 @@
 
   // 导入hover等伪类样式
   @include button-variant(button-config.$pseudo, true);
+
+  //增加disabled属性
+  &[disabled] {
+    cursor: not-allowed;
+  }
 }

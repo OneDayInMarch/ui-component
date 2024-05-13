@@ -1,13 +1,16 @@
 # Button 按钮
 ::: info
-按钮类型
+根据按钮类型、尺寸、禁用状态得到如下组件
 <div class="button-container">
     <u-button type="primary">Primary</u-button>
-    <u-button type="secondary">Secondary</u-button>
+    <u-button>Default</u-button>
     <u-button type="text">Text</u-button>
     <u-button size="small">Small</u-button>
-    <u-button size="medium">Medium</u-button>
+    <u-button>Default</u-button>
     <u-button size="large">Large</u-button>
+    <u-button disabled type="primary" > Primary Disabled</u-button>
+    <u-button disabled >Default Disabled</u-button>
+    <u-button disabled type="text" >Text Disabled</u-button>
 </div>
 :::
 
@@ -15,11 +18,14 @@
 ```js
 <div class="button-container">
     <u-button type="primary">Primary</u-button>
-    <u-button type="secondary">Secondary</u-button>
+    <u-button>Default</u-button>
     <u-button type="text">Text</u-button>
     <u-button size="small">Small</u-button>
-    <u-button size="medium">Medium</u-button>
+    <u-button>Default</u-button>
     <u-button size="large">Large</u-button>
+    <u-button disabled type="primary" > Primary Disabled</u-button>
+    <u-button disabled >Default Disabled</u-button>
+    <u-button disabled type="text" >Text Disabled</u-button>
 </div>
 ```
 

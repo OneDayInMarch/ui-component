@@ -30,3 +30,9 @@ $u-brand-active-focus: var(
 $u-font-size-sm: var(--u-font-size-md, 10px);
 $u-font-size-md: var(--u-font-size-md, 12px);
 $u-font-size-lg: var(--u-font-size-md, 14px);
+
+//组件禁用状态
+$u-primary-disabled: var(--u-primary-disabled, #98a8df); // 主要按钮禁用状态
+$u-disabled-text: var(--u-disabled-text, #757a83); // 禁用文本
+$u-disabled-bg: var(--u-disabled-bg, #c6c9cf); // 禁用背景
+$u-disabled-line: var(--u-disabled-line, #a5a8ad); // 禁用边框

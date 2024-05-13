@@ -14,6 +14,10 @@ export const buttonProps = {
   size: {
     type: String as PropType<IButtonSize>,
     default: 'medium'
+  },
+  disabled: {
+    type: Boolean,
+    default: false
   }
 } as const
 // 提取 buttonProps 对象中的属性类型，用于在组件中声明属性类型
