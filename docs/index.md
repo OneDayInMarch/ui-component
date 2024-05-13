@@ -1,11 +1,11 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: home
+#layout: home
 
 hero:
   name: "UI-Component 文档"
-  text: "Vue3组件库开发文档"
-  tagline: My great project tagline
+  text: "基于Vue3+TypeScript开发"
+  tagline: 集成Eslint、JSX、Vitest等
   actions:
     - theme: brand
       text: Markdown Examples

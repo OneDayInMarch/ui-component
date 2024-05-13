@@ -1,0 +1,58 @@
+@import '../../../style/variable';
+
+// 按钮类型的配置
+$type: (
+  primary: (
+    color: $u-light-text,
+    background-color: $u-primary
+  ),
+  secondary: (
+    color: $u-text,
+    background-color: $u-block,
+    border-color: $u-line
+  ),
+  text: (
+    padding: 0,
+    color: $u-brand-active
+  )
+);
+
+// 伪类的配置
+$pseudo: (
+  primary: (
+    hover: (
+      background-color: $u-primary-hover
+    ),
+    focus: (
+      background-color: $u-primary-hover
+    ),
+    active: (
+      background-color: $u-primary-active
+    )
+  ),
+  secondary: (
+    hover: (
+      border-color: $u-form-control-line-active,
+      color: $u-brand-active
+    ),
+    focus: (
+      border-color: $u-form-control-line-active,
+      color: $u-brand-active
+    ),
+    active: (
+      border-color: $u-form-control-line-active,
+      color: $u-brand-active
+    )
+  ),
+  text: (
+    hover: (
+      color: $u-brand-active-focus
+    ),
+    focus: (
+      color: $u-brand-active-focus
+    ),
+    active: (
+      color: $u-brand-active-focus
+    )
+  )
+);

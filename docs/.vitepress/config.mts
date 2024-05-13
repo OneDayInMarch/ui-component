@@ -17,7 +17,12 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: '通用组件', items: [{ text: 'Button 按钮' }] }
+          {
+            text: '通用组件',
+            items: [
+              { text: 'Button 按钮', link: '/components/button/index.md' }
+            ]
+          }
         ]
       }
     ],

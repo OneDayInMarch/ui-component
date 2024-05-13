@@ -7,6 +7,7 @@ const count = ref(0);
 </script>
 
 <template>
+  <u-button>确定</u-button>
   <h1>{{ msg }}</h1>
 
   <div class="card">
