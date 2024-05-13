@@ -6,10 +6,14 @@ export default defineComponent({
   name: 'UButton',
   props: buttonProps,
   setup(props: ButtonProps, { slots }) {
-    const { type } = toRefs(props)
+    const { type, size } = toRefs(props)
     return () => {
       const defaultSlot = slots.default ? slots.default() : '按钮'
-      return <button class={`u-btn u-btn--${type.value}`}>{defaultSlot}</button>
+      return (
+        <button class={`u-btn u-btn--${type.value} u-btn--${size.value}`}>
+          {defaultSlot}
+        </button>
+      )
     }
   }
 })

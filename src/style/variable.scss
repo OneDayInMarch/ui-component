@@ -25,3 +25,8 @@ $u-brand-active-focus: var(
   --u-brand-active-focus,
   #344899
 ); // 品牌色焦点色（重度加深）
+
+//当组件size为''时使用此字号大小
+$u-font-size-sm: var(--u-font-size-md, 10px);
+$u-font-size-md: var(--u-font-size-md, 12px);
+$u-font-size-lg: var(--u-font-size-md, 14px);
