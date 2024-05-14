@@ -6,7 +6,7 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
     "noImplicitAny": false, // 是否在表达式和声明上有隐含的any类型时报错
-
+    "types": ["vitest/globals"], //适配vitest
     /* Bundler mode */
     "moduleResolution": "node",
     "allowImportingTsExtensions": true,

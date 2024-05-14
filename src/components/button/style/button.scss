@@ -18,4 +18,9 @@
   &[disabled] {
     cursor: not-allowed;
   }
+
+  &.u-btn--block {
+    display: block;
+    width: 100%;
+  }
 }

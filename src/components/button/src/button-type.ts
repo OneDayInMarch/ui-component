@@ -18,6 +18,10 @@ export const buttonProps = {
   disabled: {
     type: Boolean,
     default: false
+  },
+  block: {
+    type: Boolean,
+    default: false
   }
 } as const
 // 提取 buttonProps 对象中的属性类型，用于在组件中声明属性类型

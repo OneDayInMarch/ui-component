@@ -1,6 +1,6 @@
 # Button 按钮
 ::: info
-根据按钮类型、尺寸、禁用状态得到如下组件
+根据按钮类型、尺寸、禁用状态、块级属性得到如下组件
 <div class="button-container">
     <u-button type="primary">Primary</u-button>
     <u-button>Default</u-button>
@@ -11,6 +11,8 @@
     <u-button disabled type="primary" > Primary Disabled</u-button>
     <u-button disabled >Default Disabled</u-button>
     <u-button disabled type="text" >Text Disabled</u-button>
+    <u-button block type="primary">Block primary</u-button>
+    <u-button block >Block default</u-button>
 </div>
 :::
 
@@ -26,6 +28,8 @@
     <u-button disabled type="primary" > Primary Disabled</u-button>
     <u-button disabled >Default Disabled</u-button>
     <u-button disabled type="text" >Text Disabled</u-button>
+    <u-button block type="primary">Block primary</u-button>
+    <u-button block >Block default</u-button>
 </div>
 ```
 
@@ -39,5 +43,11 @@
     .u-btn{
       margin:10px;
     }
+  }
+  .button-container .u-btn:nth-child(10) {
+    grid-column: 1 / span 3; /* 让第*个元素跨越三列，占满整行 */
+  }
+  .button-container .u-btn:nth-child(11) {
+    grid-column: 1 / span 3;
   }
 </style>
