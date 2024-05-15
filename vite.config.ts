@@ -12,6 +12,11 @@ export default defineConfig({
     // 支持tsx组件，很关键
     transformMode: {
       web: [/\.[jt]sx$/]
+    },
+    coverage: {
+      reporter: ['text', 'json', 'html'],
+      include: ['src/**/*.{ts,js}'],
+      exclude: ['node_modules/', '**/__tests__/**']
     }
   },
   resolve: {
